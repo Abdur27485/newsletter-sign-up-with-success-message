@@ -12,3 +12,45 @@ body{
     font-weight: bold;
     font-size: 32px;
 }
+
+.updates-list{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.updates-list li{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.updates-list li:nth-child(even){
+    margin: 15px 0px;
+}
+form{
+    display: grid;
+}
+form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+form button{
+    padding: 15px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background-color:hsl(235, 18%, 26%);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0px 5px 8px hsl(4, 100%, 67%);
+}
